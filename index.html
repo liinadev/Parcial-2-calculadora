@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+
+   <head>
+
+   <title> CALCULADORA </title>
+
+   <script src="./index.js"></script>
+   <link rel="stylesheet" href="./index.css">
+  
+   </head>
+
+<body>
+
+   <div class=calculadora>
+
+      <input type="text" id="pantalla" placeholder="Primer Numero" readonly>
+
+      <div class="botones">
+
+         <button onclick="encender()"> on </button>
+         <button onclick="borrar()"> AC </button>
+         <button onclick="agregar('/')"> / </button>
+         <button onclick="borrarUltimo()"> ← </button>
+         <br>
+         <button onclick="agregar(7)"> 7 </button>
+         <button onclick="agregar(8)"> 8 </button>
+
+         <button onclick="agregar(9)"> 9 </button>
+         <button onclick="agregar('*')"> * </button> <br>
+         <button onclick="agregar(4)"> 4 </button>
+         <button onclick="agregar(5)"> 5 </button>
+
+         <button onclick="agregar(6)"> 6 </button>
+         <button onclick="agregar('-')"> - </button> <br>
+         <button onclick="agregar(1)"> 1 </button>
+         <button onclick="agregar(2)"> 2 </button>
+
+         <button onclick="agregar(3)"> 3 </button>
+         <button onclick="agregar('+')"> + </button> <br>
+         <button onclick="agregar(0)"> 0 </button>
+         <button onclick="agregar('.')"> . </button>
+         <button onclick="calcular()"> = </button>
+      </div>
+   </div>
+
+</body>
+</html>
